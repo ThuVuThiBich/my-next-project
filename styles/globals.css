@@ -1,20 +1,26 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply inline-block border-b-4 border-[#c80000] p-5 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+  }
+  .menu-sub-item {
+    @apply block px-7 py-2 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+  }
+  .border-li {
+    @apply border-b-[1px] border-b-gray-50;
+  }
+}
+
+@layer utilities {
+  .sub-dropdown:hover > .sub-dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+  .sub-dropdown:hover > a {
+    color: yellow;
+  }
+}
