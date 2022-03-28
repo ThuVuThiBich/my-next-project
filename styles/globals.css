@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 @layer components {
   .menu-item {
     @apply inline-block border-b-4 border-[#c80000] p-5 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;

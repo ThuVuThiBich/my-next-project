@@ -6,87 +6,67 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <>
-      <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-        <div className="p-5 ">
-          <ul>
-            <p className="text-gray-800 font-bold text-3xl pb-6">
-              Stream<span className="text-blue-600">line</span>
-            </p>
-            <div className="flex gap-6 pb-5">
-              <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-              <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-              <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-              <FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+    <footer>
+      <div className=" flex h-1/2  flex-col items-start justify-between bg-black p-10 text-white  md:h-1/4 md:p-24 lg:flex-row">
+        <div className="w-full md:w-1/2">
+          <div
+            className="
+            mb-2
+           flex
+          flex-col
+        items-start 
+        justify-center
+        "
+          >
+            <div
+              className="
+              mb-2
+              flex
+              flex-col
+            text-base 
+            font-black
+          uppercase leading-8 
+        md:text-xl"
+            >
+              Công ty TNHH XD&TM HÙNG PHONG
             </div>
-          </ul>
+            <div>Địa chỉ: </div>
+            <div>Email: </div>
+          </div>
+          <div className="flex">
+            <div className="mr-4 text-lg uppercase">Mạng xã hội:</div>
+            <div className="flex gap-6 pb-5">
+              <FaInstagram className="cursor-pointer text-2xl hover:text-yellow-600" />
+              <FaTwitter className="cursor-pointer text-2xl hover:text-blue-600" />
+              <FaLinkedin className="cursor-pointer text-2xl hover:text-blue-600" />
+              <FaYoutube className="cursor-pointer text-2xl hover:text-red-600" />
+            </div>
+          </div>
         </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Stocks
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Futures & Options
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Mutual Funds
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Fixed deposits
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              About
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Products
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Pricing
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Careers
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Press & Media
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Contact
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Support Portals
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              List Of Charges
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Downloads & Resources
-            </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Videos
-            </li>
-          </ul>
+
+        <div className=" w-full md:w-1/2">
+          <div className="mb-2 text-lg uppercase">Bản đồ:</div>
+
+          <div s className="w-full">
+            <iframe
+              width="100%"
+              height="300"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=27,%20Nguy%E1%BB%85n%20B%E1%BA%A3o,%20H%C3%B2a%20Ch%C3%A2u,%20H%C3%B2a%20Vang,%20%C4%90%C3%A0%20N%E1%BA%B5ng+(H%C3%B9ng%20Phong)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            >
+              <a href="https://www.gps.ie/marine-gps/">navigation gps</a>
+            </iframe>
+          </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
-        <h1 className=" text-gray-800 font-semibold">
-          © 2021-2022 All rights reserved | Build with ❤ by{" "}
-          <span className="hover:text-blue-600 font-semibold cursor-pointer">
-            streamline{" "}
-          </span>
+      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-white">
+        <h1 className=" font-semibold ">
+          © 2021-2022 by 7huh7. All rights reserved
         </h1>
       </div>
-    </>
+    </footer>
   );
 }
