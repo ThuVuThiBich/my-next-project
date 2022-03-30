@@ -17,6 +17,13 @@ body {
   .border-li {
     @apply border-b-[1px] border-b-gray-50;
   }
+  /*  */
+  .mobile {
+    @apply hidden md:block;
+  }
+  .menu-item-mobile {
+    @apply inline-block  border-[#c80000] p-2 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+  }
 }
 
 @layer utilities {
