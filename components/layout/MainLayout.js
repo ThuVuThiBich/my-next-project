@@ -13,7 +13,7 @@ export function MainLayout({ children }) {
       </Head>
       <Header />
 
-      <main>{children}</main>
+      <main className="container mx-auto  px-4 md:px-24">{children}</main>
 
       <Footer />
     </div>
