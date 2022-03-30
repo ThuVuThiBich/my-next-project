@@ -8,7 +8,7 @@ export default function Ribbon({ title }) {
         overflow: "hidden",
         display: "flex",
         justifyContent: "center",
-        marginTop: 16,
+        marginTop: 64,
         marginBottom: 16,
       }}
     >

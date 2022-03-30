@@ -47,7 +47,7 @@ export default function Footer() {
         <div className=" w-full md:w-1/2">
           <div className="mb-2 text-lg uppercase">Bản đồ:</div>
 
-          <div s className="w-full">
+          <div className="w-full">
             <iframe
               width="100%"
               height="300"

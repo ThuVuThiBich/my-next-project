@@ -1,9 +1,20 @@
 import HorizontalMultiSlide from "../components/common/HorizontalMultiSlide";
+import Items from "../components/common/Items";
 import MyLink from "../components/common/MyLink";
+import Product from "../components/common/Product";
 import Ribbon from "../components/common/Ribbon";
 import VerticalMultiSlide from "../components/common/VerticalMultiSlide";
 import { MainLayout } from "../components/layout/MainLayout";
-
+const data = [
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+  { name: "cau-thang-kinh-1" },
+];
 export default function Home() {
   return (
     <MainLayout>
@@ -11,7 +22,7 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="col-span-2 ">
             <div className="">
-              <div className="border-l-8 border-l-gray-500  text-lg md:text-2xl font-semibold">
+              <div className="border-l-8 border-l-gray-500  text-lg font-semibold md:text-2xl">
                 <span className="px-6">GIỚI THIỆU DOANH NGHIỆP</span>
                 <small className="hidden text-sm font-normal md:inline-block">
                   Chúng tôi cam kết mang lại sự hài lòng cho khách hàng
@@ -57,8 +68,17 @@ export default function Home() {
         </div>
       </section>
       <Ribbon title={"SẢN PHẨM NỔI BẬT"} />
+      <section className="my-5 ">
+        <Items items={data} />
+      </section>
       <Ribbon title={"SẢN PHẨM MỚI"} />
+      <section className="my-5 ">
+        <Items items={data} />
+      </section>
       <Ribbon title={"CÔNG TRÌNH TIÊU BIỂU"} />
+      <section className="my-5 ">
+        <Items items={data} />
+      </section>
     </MainLayout>
   );
 }
