@@ -6,8 +6,8 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className=" flex h-1/2  flex-col items-start justify-between bg-black p-10 text-white  md:h-1/4 md:p-24 lg:flex-row">
+    <footer className="mt-10 md:mt-20">
+      <div className=" flex h-1/2  flex-col items-start justify-between bg-black p-6 text-white  md:h-1/4 md:p-24 lg:flex-row">
         <div className="w-full md:w-1/2">
           <div
             className="
@@ -34,7 +34,7 @@ export default function Footer() {
             <div>Email: </div>
           </div>
           <div className="flex">
-            <div className="mr-4 text-lg uppercase">Mạng xã hội:</div>
+            <div className="mr-4 text-sm md:text-lg uppercase">Mạng xã hội:</div>
             <div className="flex gap-6 pb-5">
               <FaInstagram className="cursor-pointer text-2xl hover:text-yellow-600" />
               <FaTwitter className="cursor-pointer text-2xl hover:text-blue-600" />
@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
 
         <div className=" w-full md:w-1/2">
-          <div className="mb-2 text-lg uppercase">Bản đồ:</div>
+          <div className="mb-2 text-sm md:text-lg uppercase">Bản đồ:</div>
 
           <div className="w-full">
             <iframe
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-white">
+      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-white text-sm md:text-lg">
         <h1 className=" font-semibold ">
           © 2021-2022 by 7huh7. All rights reserved
         </h1>

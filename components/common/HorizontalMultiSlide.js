@@ -12,6 +12,7 @@ export default function HorizontalMultiSlide() {
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
+    arrows: false,
   };
   return (
     <div>

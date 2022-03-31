@@ -68,15 +68,15 @@ export default function Home() {
         </div>
       </section>
       <Ribbon title={"SẢN PHẨM NỔI BẬT"} />
-      <section className="my-5 ">
+      <section className=" ">
         <Items items={data} />
       </section>
       <Ribbon title={"SẢN PHẨM MỚI"} />
-      <section className="my-5 ">
+      <section className=" ">
         <Items items={data} />
       </section>
       <Ribbon title={"CÔNG TRÌNH TIÊU BIỂU"} />
-      <section className="my-5 ">
+      <section className=" ">
         <Items items={data} />
       </section>
     </MainLayout>

@@ -9,9 +9,19 @@ export default function Items({ items }) {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
-    <div className="mt-2 md:mt-20">
+    <div className="mt-5 md:mt-10">
       <Slider {...settings}>
         {items.map((product, index) => (
           <Product key={index} product={product} />

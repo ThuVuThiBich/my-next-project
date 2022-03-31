@@ -47,12 +47,6 @@ body {
   width: 25%;
   background-color: #c80000;
 }
-@media screen and (max-width: 768px) {
-  .ribbon {
-    width: 75%;
-    padding: 0.25em;
-  }
-}
 
 .ribbon:before {
   content: "";
@@ -113,4 +107,26 @@ body {
 .slick-prev:before,
 .slick-next:before {
   font-size: 30px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .ribbon {
+    width: 75%;
+    padding: 0.25em;
+  }
+
+  /*  */
+  .slick-prev {
+    left: 5% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 8% !important;
+    z-index: 1;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 25px !important;
+  }
 }
