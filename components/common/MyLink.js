@@ -4,9 +4,12 @@ import { useRouter } from "next/router";
 
 const MyLink = ({ href, children }) => {
   const router = useRouter();
-
-  let className = children.props.className || "";
-  if (router.pathname === href) {
+  console.log(href);
+  let className = children?.props?.className || "";
+  if (
+    router?.pathname === href ||
+    `/${router?.pathname?.split("/")[1]}` === href
+  ) {
     className = `${className} text-yellow-400`;
   }
 
