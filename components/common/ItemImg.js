@@ -3,9 +3,9 @@ import React from "react";
 import { Button } from "react-scroll/modules";
 import MyLink from "./MyLink";
 
-export default function CompImg({ product }) {
+export default function ItemImg({ product }) {
   return (
-    <div className="my-2 md:my-0 md:mx-2 md:grid h-full md:grid-cols-3">
+    <div className="my-2 h-full md:my-0 md:mx-2 md:grid md:grid-cols-3">
       <div className="col-span-1">
         <MyLink href={`/hinh-anh/hinh-anh-1`}>
           <img
@@ -15,7 +15,7 @@ export default function CompImg({ product }) {
           />
         </MyLink>
       </div>
-      <div className="my-2 md:my-0 col-span-2 md:ml-1 w-full md:p-2 text-black ">
+      <div className="col-span-2 my-2 w-full text-black md:my-0 md:ml-1 md:p-2 ">
         <Link href="/hinh-anh/hinh-anh-1">
           <a className="font-semibold">Lorem ipsum dolor sit amet.</a>
         </Link>

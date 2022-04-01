@@ -10,7 +10,7 @@ export default function Navbar() {
         <ul className="flex font-semibold md:mx-auto md:justify-between">
           <li>
             <MyLink href="/">
-              <a className="menu-item border-none md:border-[#c80000]">
+              <a className="menu-item -ml-1 md:ml-0 border-none md:border-[#c80000]">
                 Trang chủ
               </a>
             </MyLink>

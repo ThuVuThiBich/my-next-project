@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 const MyLink = ({ href, children }) => {
   const router = useRouter();
-  console.log(href);
   let className = children?.props?.className || "";
   if (
     router?.pathname === href ||

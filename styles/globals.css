@@ -9,10 +9,10 @@ body {
 
 @layer components {
   .menu-item {
-    @apply inline-block border-b-4 border-[#c80000] p-5 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+    @apply inline-block border-b-4 border-[#c80000] p-5 text-sm uppercase  hover:border-yellow-400 hover:text-yellow-400 md:text-base;
   }
   .menu-sub-item {
-    @apply block px-7 py-2 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+    @apply block px-7 py-2 text-sm uppercase hover:border-yellow-400 hover:text-yellow-400 md:text-base;
   }
   .border-li {
     @apply border-b-[1px] border-b-gray-50;
@@ -22,7 +22,15 @@ body {
     @apply hidden md:block;
   }
   .menu-item-mobile {
-    @apply inline-block  border-[#c80000] p-2 text-lg uppercase hover:border-yellow-400 hover:text-yellow-400;
+    @apply inline-block  border-[#c80000] p-2 text-sm uppercase hover:border-yellow-400 hover:text-yellow-400;
+  }
+
+  /* pagination */
+  .pagination-item {
+    @apply border border-gray-300 bg-white py-2 px-3 leading-tight text-gray-500 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white;
+  }
+  .pagination-current-item {
+    @apply z-10 border border-blue-300 bg-blue-50 py-2 px-3 leading-tight text-blue-600 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white;
   }
 }
 

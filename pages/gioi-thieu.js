@@ -15,7 +15,6 @@ export default function Intro() {
           năm 2012.
         </p>
         <p className="my-4">
-          {" "}
           Japanwindow được xây dựng bởi đội ngũ quản lý tận tụy, sáng tạo, đội
           ngũ công nhân có tay nghề cao, và dây chuyền sản xuất được ứng dụng
           công nghệ sản xuất tiên tiến từ Italy, Phần Lan, Hàn Quốc ... Cùng với
@@ -28,7 +27,7 @@ export default function Intro() {
           chất lượng của công ty chúng tôi phù hợp tiêu chuẩn ISO 9001:2008,
           chúng tôi tin tưởng rằng có thể cung cấp đến Quý khách hàng các sản
           phẩm có chất lượng tốt nhất và tối đa hóa sự thỏa mãn của Quý khách
-          hàng.{" "}
+          hàng.
         </p>
         <p>
           Sản phẩm chính của Công ty Công Nghệ Nhật bao gồm: Mặt dựng kính - Cửa
@@ -65,7 +64,7 @@ export default function Intro() {
             <li>Kỹ thuật viên: 05 người Công nhân sản xuất: 20 người</li>
           </ul>
           <li className="font-bold">
-            HỆ THỐNG QUẢN LÝ CHẤT LƯỢNG:{" "}
+            HỆ THỐNG QUẢN LÝ CHẤT LƯỢNG:
             <span className="font-normal">ISO 9001:2008</span>
           </li>
 
@@ -79,7 +78,7 @@ export default function Intro() {
                 <span className="font-semibold">Họ và tên:</span> {item.name}
               </div>
               <div className="">
-                <span className="font-semibold">Bằng cấp:</span>{" "}
+                <span className="font-semibold">Bằng cấp:</span>
                 {item.certificate}
               </div>
               <div className="">

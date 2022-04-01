@@ -1,6 +1,11 @@
 import React from "react";
+import Title from "../components/common/Title";
 import { MainLayout } from "../components/layout/MainLayout";
 
 export default function Contact() {
-  return <MainLayout>tin-tuc</MainLayout>;
+  return (
+    <MainLayout>
+      <Title title={"LIÊN HỆ"} />
+    </MainLayout>
+  );
 }
