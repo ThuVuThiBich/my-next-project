@@ -39,7 +39,9 @@ export default function Header() {
           >
             Công ty TNHH XD&TM HÙNG PHONG
           </div>
-          <div>Địa chỉ: </div>
+          <div>
+            Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà Nẵng
+          </div>
           <div>Email: </div>
         </div>
         <div className="flex items-center ">

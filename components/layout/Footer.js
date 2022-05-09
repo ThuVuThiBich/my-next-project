@@ -30,11 +30,16 @@ export default function Footer() {
             >
               Công ty TNHH XD&TM HÙNG PHONG
             </div>
-            <div>Địa chỉ: </div>
+            <div>
+              Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà
+              Nẵng
+            </div>
             <div>Email: </div>
           </div>
           <div className="flex">
-            <div className="mr-4 text-sm md:text-lg uppercase">Mạng xã hội:</div>
+            <div className="mr-4 text-sm uppercase md:text-lg">
+              Mạng xã hội:
+            </div>
             <div className="flex gap-6 pb-5">
               <FaInstagram className="cursor-pointer text-2xl hover:text-yellow-600" />
               <FaTwitter className="cursor-pointer text-2xl hover:text-blue-600" />
@@ -45,10 +50,25 @@ export default function Footer() {
         </div>
 
         <div className=" w-full md:w-1/2">
-          <div className="mb-2 text-sm md:text-lg uppercase">Bản đồ:</div>
+          <div className="mb-2 text-sm uppercase md:text-lg">Bản đồ:</div>
 
           <div className="w-full">
-            <iframe
+            <div className="mapouter">
+              <div className="gmap_canvas">
+                <iframe
+                  width="100%"
+                  height="300"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=55%20%C4%90%C6%B0%E1%BB%9Dng%20V%C3%B5%20An%20Ninh,%20Ph%C6%B0%E1%BB%9Dng%20Ho%C3%A0%20Xu%C3%A2n,%20Qu%E1%BA%ADn%20C%E1%BA%A9m%20L%E1%BB%87,%20TP.%20%C4%90%C3%A0%20N%E1%BA%B5ng&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameBorder="0"
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                ></iframe>
+                <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+              </div>
+            </div>
+            {/* <iframe
               width="100%"
               height="300"
               frameBorder="0"
@@ -58,11 +78,11 @@ export default function Footer() {
               src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=27,%20Nguy%E1%BB%85n%20B%E1%BA%A3o,%20H%C3%B2a%20Ch%C3%A2u,%20H%C3%B2a%20Vang,%20%C4%90%C3%A0%20N%E1%BA%B5ng+(H%C3%B9ng%20Phong)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
               <a href="https://www.gps.ie/marine-gps/">navigation gps</a>
-            </iframe>
+            </iframe> */}
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-white text-sm md:text-lg">
+      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-sm text-white md:text-lg">
         <h1 className=" font-semibold ">
           © 2021-2022 by 7huh7. All rights reserved
         </h1>

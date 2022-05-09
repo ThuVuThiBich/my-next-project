@@ -12,7 +12,10 @@ export default function Contact() {
             <div className="text-[17px] font-bold text-primary md:text-2xl">
               CÔNG TY TNHH XD&TM HÙNG PHONG
             </div>
-            <div>Địa chỉ: Khu phố 1, Phường Thạnh Mỹ Lợi, Quận 2, TP.HCM</div>
+            <div>
+              Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà
+              Nẵng
+            </div>
 
             <div>Email: japanwindowjsc@gmail.com</div>
             <div>Điện thoại : 0906 002 001 - 0903 448 947</div>
@@ -131,14 +134,14 @@ export default function Contact() {
             <iframe
               width="100%"
               height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=55%20%C4%90%C6%B0%E1%BB%9Dng%20V%C3%B5%20An%20Ninh,%20Ph%C6%B0%E1%BB%9Dng%20Ho%C3%A0%20Xu%C3%A2n,%20Qu%E1%BA%ADn%20C%E1%BA%A9m%20L%E1%BB%87,%20TP.%20%C4%90%C3%A0%20N%E1%BA%B5ng&t=&z=13&ie=UTF8&iwloc=&output=embed"
               frameBorder="0"
               scrolling="no"
               marginHeight="0"
               marginWidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=27,%20Nguy%E1%BB%85n%20B%E1%BA%A3o,%20H%C3%B2a%20Ch%C3%A2u,%20H%C3%B2a%20Vang,%20%C4%90%C3%A0%20N%E1%BA%B5ng+(H%C3%B9ng%20Phong)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-              <a href="https://www.gps.ie/marine-gps/">navigation gps</a>
-            </iframe>
+            ></iframe>
+            <a href="https://www.whatismyip-address.com/divi-discount/"></a>
           </div>
         </div>
       </section>
