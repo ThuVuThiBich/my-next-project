@@ -1,8 +1,8 @@
-import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -28,7 +28,7 @@ export default function Footer() {
           uppercase leading-8 
         md:text-xl"
             >
-              Công ty TNHH XD&TM HÙNG PHONG
+              Công ty cổ phần EuroAlu
             </div>
             <div>
               Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà

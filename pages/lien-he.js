@@ -1,16 +1,16 @@
-import React from "react";
-import Title from "../components/common/Title";
-import { MainLayout } from "../components/layout/MainLayout";
+import React from 'react';
+import Title from '../components/common/Title';
+import { MainLayout } from '../components/layout/MainLayout';
 
 export default function Contact() {
   return (
     <MainLayout>
-      <Title title={"LIÊN HỆ"} />
+      <Title title={'LIÊN HỆ'} />
       <section className="flex flex-col items-center md:flex-row md:space-x-6">
         <div className="w-full md:w-1/2">
           <div className="mb-4 space-y-2">
             <div className="text-[17px] font-bold text-primary md:text-2xl">
-              CÔNG TY TNHH XD&TM HÙNG PHONG
+              Công ty cổ phần EuroAlu
             </div>
             <div>
               Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà

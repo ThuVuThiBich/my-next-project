@@ -1,19 +1,18 @@
-import HorizontalMultiSlide from "../components/common/HorizontalMultiSlide";
-import Items from "../components/common/Items";
-import MyLink from "../components/common/MyLink";
-import Product from "../components/common/Product";
-import Ribbon from "../components/common/Ribbon";
-import VerticalMultiSlide from "../components/common/VerticalMultiSlide";
-import { MainLayout } from "../components/layout/MainLayout";
+import HorizontalMultiSlide from '../components/common/HorizontalMultiSlide';
+import Items from '../components/common/Items';
+import MyLink from '../components/common/MyLink';
+import Ribbon from '../components/common/Ribbon';
+import VerticalMultiSlide from '../components/common/VerticalMultiSlide';
+import { MainLayout } from '../components/layout/MainLayout';
 const data = [
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
-  { name: "cau-thang-kinh-1" },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
+  { name: 'cau-thang-kinh-1' },
 ];
 export default function Home() {
   return (
@@ -30,18 +29,18 @@ export default function Home() {
               </div>
               <div className="my-6 ml-8">
                 <h2 className=" my-2 text-justify font-semibold leading-8">
-                  Công ty cổ phần Công Nghệ Nhật (Japanwindow).
+                  Công ty cổ phần EuroAlu
                   <br />
                   Được thành lập vào tháng 10 năm 2015.
                 </h2>
 
                 <p className="my-2  text-justify">
-                  Japanwindow được xây dựng bởi đội ngũ quản lý tận tụy, sáng
-                  tạo, đội ngũ công nhân có tay nghề cao, và dây chuyền sản xuất
-                  được ứng dụng công nghệ sản xuất tiên tiến từ Italy, Phần Lan,
-                  Hàn Quốc ... Cùng với các nguyên tắc hoạt động cơ bản của công
-                  ty: An toàn, Nhanh chóng, Áp dụng tiêu chuẩn chất lượng có uy
-                  tín trên thế giới vào sản xuất ...
+                  EuroAlu được xây dựng bởi đội ngũ quản lý tận tụy, sáng tạo,
+                  đội ngũ công nhân có tay nghề cao, và dây chuyền sản xuất được
+                  ứng dụng công nghệ sản xuất tiên tiến từ Italy, Phần Lan, Hàn
+                  Quốc ... Cùng với các nguyên tắc hoạt động cơ bản của công ty:
+                  An toàn, Nhanh chóng, Áp dụng tiêu chuẩn chất lượng có uy tín
+                  trên thế giới vào sản xuất ...
                 </p>
               </div>
               <MyLink href="/gioi-thieu">
@@ -67,15 +66,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Ribbon title={"SẢN PHẨM NỔI BẬT"} />
+      <Ribbon title={'SẢN PHẨM NỔI BẬT'} />
       <section className=" ">
         <Items items={data} />
       </section>
-      <Ribbon title={"SẢN PHẨM MỚI"} />
+      <Ribbon title={'SẢN PHẨM MỚI'} />
       <section className=" ">
         <Items items={data} />
       </section>
-      <Ribbon title={"CÔNG TRÌNH TIÊU BIỂU"} />
+      <Ribbon title={'CÔNG TRÌNH TIÊU BIỂU'} />
       <section className=" ">
         <Items items={data} />
       </section>

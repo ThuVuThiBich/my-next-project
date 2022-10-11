@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
-import Image from "next/image";
-import Navbar from "./Navbar";
-import Images from "../../constants/image";
-import call from "../../assets/icons/call.png";
-import Slideshow from "./Slideshow";
+import React, { useState } from 'react';
+import { Transition } from '@headlessui/react';
+import { Link } from 'react-scroll';
+import Image from 'next/image';
+import Navbar from './Navbar';
+import Images from '../../constants/image';
+import call from '../../assets/icons/call.png';
+import Slideshow from './Slideshow';
 // import Logo from "../public/streamlineLogo.png";
 
 export default function Header() {
@@ -37,10 +37,11 @@ export default function Header() {
           text-[#EC0A0A] 
         md:text-3xl"
           >
-            Công ty TNHH XD&TM HÙNG PHONG
+            Công ty cổ phần EuroAlu
           </div>
           <div>
-            Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà Nẵng
+            Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà
+            Nẵng
           </div>
           <div>Email: </div>
         </div>
