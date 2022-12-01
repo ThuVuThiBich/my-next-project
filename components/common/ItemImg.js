@@ -22,11 +22,11 @@ export default function ItemImg({ product }) {
         <p
           className="my-4 cursor-default overflow-hidden overflow-ellipsis"
           style={{
-            display: "-webkit-box",
-            "-webkit-line-clamp": "3",
-            "-webkit-box-orient": "vertical",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
+            display: '-webkit-box',
+            '-webkit-line-clamp': '3',
+            '-webkit-box-orient': 'vertical',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
           }}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum
@@ -35,7 +35,7 @@ export default function ItemImg({ product }) {
           exercitationem!
         </p>
         <Link href="/hinh-anh/hinh-anh-1">
-          <a className="bg-[#e80000] p-2 font-semibold text-white hover:bg-[#FFAF02]">
+          <a className="bg-[#0060af] p-2 font-semibold text-white hover:bg-[#FACC15]">
             Xem thêm
           </a>
         </Link>

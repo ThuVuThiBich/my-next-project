@@ -34,10 +34,10 @@ export default function Header() {
             mb-2 
             font-black
           uppercase leading-8 
-          text-[#EC0A0A] 
+          text-[#FACC15] 
         md:text-3xl"
           >
-            Công ty cổ phần EuroAlu
+            Công ty cổ phần xây dựng EuroAlu
           </div>
           <div>
             Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà
@@ -46,12 +46,12 @@ export default function Header() {
           <div>Email: </div>
         </div>
         <div className="flex items-center ">
-          <div className="mr-2 h-8 w-8">
+          <div className="mr-2 h-10 w-10">
             <Image src={call} alt="" className="h-full w-full object-cover" />
           </div>
           <div>
             <div>HOTLINE</div>
-            <div className="text-xl font-bold text-[#EC0A0A]">0832890865</div>
+            <div className="text-xl font-bold text-[#FACC15]">0934160179</div>
           </div>
         </div>
       </header>

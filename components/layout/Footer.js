@@ -1,8 +1,10 @@
+import Image from 'next/image';
 import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
+import zalo from '../../assets/icons/zalo.png';
 
 export default function Footer() {
   return (
@@ -28,7 +30,7 @@ export default function Footer() {
           uppercase leading-8 
         md:text-xl"
             >
-              Công ty cổ phần EuroAlu
+              Công ty cổ phần xây dựng EuroAlu
             </div>
             <div>
               Địa chỉ: 55 Đường Võ An Ninh, Phường Hoà Xuân, Quận Cẩm Lệ, TP. Đà
@@ -40,11 +42,12 @@ export default function Footer() {
             <div className="mr-4 text-sm uppercase md:text-lg">
               Mạng xã hội:
             </div>
-            <div className="flex gap-6 pb-5">
+            <div className="flex items-center gap-6 pb-5">
               <FaInstagram className="cursor-pointer text-2xl hover:text-yellow-600" />
               <FaTwitter className="cursor-pointer text-2xl hover:text-blue-600" />
               <FaLinkedin className="cursor-pointer text-2xl hover:text-blue-600" />
               <FaYoutube className="cursor-pointer text-2xl hover:text-red-600" />
+              <Image src={zalo} alt="" className="h-full w-full cursor-pointer" />
             </div>
           </div>
         </div>
@@ -82,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center bg-[#aa0706]  p-5 text-center text-sm text-white md:text-lg">
+      <div className="flex flex-col items-center justify-center bg-[#0060af]  p-5 text-center text-sm text-white md:text-lg">
         <h1 className=" font-semibold ">
           © 2021-2022 by 7huh7. All rights reserved
         </h1>

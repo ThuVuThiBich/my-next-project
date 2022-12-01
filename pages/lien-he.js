@@ -17,8 +17,8 @@ export default function Contact() {
               Nẵng
             </div>
 
-            <div>Email: japanwindowjsc@gmail.com</div>
-            <div>Điện thoại : 0906 002 001 - 0903 448 947</div>
+            <div>Email: hungle@gmail.com</div>
+            <div>Điện thoại: 0934160179</div>
           </div>
           <div className="mt-2">
             <form action="#" method="POST">

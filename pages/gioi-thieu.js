@@ -9,7 +9,7 @@ export default function Intro() {
       <Title title={'GIỚI THIỆU'} />
       <div className="text-lg">
         <p className=" font-semibold">
-          Công ty cổ phần EuroAlu được thành lập vào tháng 10 năm 2015
+          Công ty cổ phần xây dựng EuroAlu được thành lập vào tháng 11 năm 2022
         </p>
         <p className="my-4">
           EuroAlu được xây dựng bởi đội ngũ quản lý tận tụy, sáng tạo, đội ngũ
@@ -27,8 +27,8 @@ export default function Intro() {
           hàng.
         </p>
         <p>
-          Sản phẩm chính của Công ty bao gồm: Mặt dựng kính - Cửa
-          nhôm - Cửa nhựa lõi thép - Cửa cuốn.
+          Sản phẩm chính của Công ty bao gồm: Mặt dựng kính - Cửa nhôm - Cửa
+          nhựa lõi thép - Cửa cuốn.
         </p>
       </div>
       <div className="my-5 mx-auto w-full">
@@ -46,10 +46,9 @@ export default function Intro() {
           <li className="font-bold">NĂM THÀNH LẬP – NGÀNH NGHỀ KINH DOANH:</li>
           <ul className="my-2">
             <li>
-              Chứng nhận ĐKKD số: MST : 0313496202 - do Sở Kế Hoạch Và Đầu Tư TP
-              HCM cấp ngày : 19/10/2015.
+              Chứng nhận ĐKKD số:
             </li>
-            <li>Đại diện pháp luật: Ông NGUYỄN HỮU THUYÊN</li>
+            <li>Đại diện pháp luật: </li>
             <li>
               Ngành nghề kinh doanh chính: Mua bán, sản xuất, gia công, sửa chữa
               các sản phẩm ngành nhôm kính.
@@ -57,8 +56,8 @@ export default function Intro() {
           </ul>
           <li className="font-bold">NHÂN SỰ:</li>
           <ul className="my-2">
-            <li>Quản lý: 05 người</li>
-            <li>Kỹ thuật viên: 05 người Công nhân sản xuất: 20 người</li>
+            <li>Quản lý</li>
+            <li>Kỹ thuật viên:</li>
           </ul>
           <li className="font-bold">
             HỆ THỐNG QUẢN LÝ CHẤT LƯỢNG:

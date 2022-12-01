@@ -1,16 +1,16 @@
-import { useState } from "react";
-import MyLink from "../common/MyLink";
-import { Transition } from "@headlessui/react";
+import { useState } from 'react';
+import MyLink from '../common/MyLink';
+import { Transition } from '@headlessui/react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="flex justify-between bg-[#c80000] text-white ">
+      <nav className="flex justify-between bg-[#0060af] text-white ">
         <ul className="flex font-semibold md:mx-auto md:justify-between">
           <li>
             <MyLink href="/">
-              <a className="menu-item -ml-1 md:ml-0 border-none md:border-[#c80000]">
+              <a className="menu-item -ml-1 border-none md:ml-0 md:border-[#0060af]">
                 Trang chủ
               </a>
             </MyLink>
@@ -26,17 +26,17 @@ export default function Navbar() {
             <MyLink href="/san-pham">
               <a
                 href=""
-                className="menu-item group-hover:border-yellow-400 group-hover:text-yellow-400"
+                className="menu-item group-hover:border-[#FACC15]group-hover:text-[#FACC15]"
               >
                 Sản phẩm
               </a>
             </MyLink>
-            <ul className="invisible absolute left-0 z-50 mt-14 w-max bg-[#c80000] opacity-0 transition-all duration-500 group-hover:visible group-hover:mt-0 group-hover:opacity-100">
+            <ul className="invisible absolute left-0 z-50 mt-14 w-max bg-[#0060af] opacity-0 transition-all duration-500 group-hover:visible group-hover:mt-0 group-hover:opacity-100">
               <li className="sub-dropdown border-li relative">
                 <a href="" className="menu-sub-item">
                   Cửa sổ
                 </a>
-                <ul className="sub-dropdown-content invisible absolute left-full top-full w-max bg-[#c80000] opacity-0 transition-all duration-500 ">
+                <ul className="sub-dropdown-content invisible absolute left-full top-full w-max bg-[#0060af] opacity-0 transition-all duration-500 ">
                   <li className="border-li">
                     <a href="" className="menu-sub-item">
                       Cửa sổ mở hất
@@ -63,7 +63,7 @@ export default function Navbar() {
                 <a href="" className="menu-sub-item">
                   Sản phẩm kính
                 </a>
-                <ul className="sub-dropdown-content invisible absolute left-full top-full w-max bg-[#c80000] opacity-0 transition-all duration-500 ">
+                <ul className="sub-dropdown-content invisible absolute left-full top-full w-max bg-[#0060af] opacity-0 transition-all duration-500 ">
                   <li className="border-li">
                     <a href="" className="menu-sub-item">
                       Cầu thang kính
@@ -172,7 +172,7 @@ export default function Navbar() {
           <div className="md:hidden" id="mobile-menu">
             <div
               ref={ref}
-              className="space-y-1 bg-[#c80000] px-2 pt-2 pb-3 text-white sm:px-3"
+              className="space-y-1 bg-[#0060af] px-2 pt-2 pb-3 text-white sm:px-3"
             >
               <ul className="flex flex-col font-semibold">
                 <li>

@@ -29,9 +29,9 @@ export default function Home() {
               </div>
               <div className="my-6 ml-8">
                 <h2 className=" my-2 text-justify font-semibold leading-8">
-                  Công ty cổ phần EuroAlu
+                  Công ty cổ phần xây dựng EuroAlu
                   <br />
-                  Được thành lập vào tháng 10 năm 2015.
+                  Được thành lập vào tháng 11 năm 2022.
                 </h2>
 
                 <p className="my-2  text-justify">
